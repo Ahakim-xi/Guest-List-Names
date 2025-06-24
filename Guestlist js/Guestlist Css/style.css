@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f4f4f400;
   padding: 20px;
   max-width: 600px;
   margin: auto;
@@ -50,20 +50,20 @@ li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
-  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.527);
+  border: 1px solid #dddddd07;
   margin: 10px 0;
   padding: 10px;
   border-radius: 8px;
 }
 
 .attending {
-  color: green;
+  color: rgba(9, 153, 9, 0.904);
   font-weight: bold;
 }
 
 .not-attending {
-  color: red;
+  color: rgba(189, 6, 6, 0.897);
   font-weight: bold;
 }
 
@@ -82,12 +82,12 @@ li {
 
 .family {
   background-color: #fff3cd;
-  color: #856404;
+  color: #5e8504;
 }
 
 .colleague {
   background-color: #e2e3e5;
-  color: #383d41;
+  color: #14609e;
 }
 
 li button {
@@ -96,5 +96,5 @@ li button {
 }
 
 li button:hover {
-  background-color: #495057;
+  background-color: #29323b;
 }
